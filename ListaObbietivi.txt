@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-=======
 1)Creare sito
-<<<<<<< HEAD
->>>>>>> 55b923e26f8fab13ec10af78123facf4ed9cc28e
-=======
 2)Fare gli schemi
->>>>>>> 73a96dc740390d77682cf435f702b7cb62b8e72b
 3) Lugari
 4) simone
