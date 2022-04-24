@@ -6,3 +6,4 @@
 =======
 2)Fare gli schemi
 >>>>>>> 73a96dc740390d77682cf435f702b7cb62b8e72b
+3) Lugari
