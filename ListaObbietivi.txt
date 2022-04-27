@@ -1,4 +1,17 @@
-1)Creare sito
-2)Fare gli schemi
-3) Lugari
-4) simone
+Lista obbiettivi:
+
+1)Creare sito nolleggio auto
+2)Fare Database (ER,logico ecc..)
+3)Organizzazione:
+	-Project Charter
+	-WBS
+	-RACI
+	-PERT o CPM
+4)Analisi rischi
+5)Analisi costi
+6)Budget
+7)Analisi competitors
+8)PowerPoint
+9)Conclusioni ed eventuali aggiornamenti
+
+
