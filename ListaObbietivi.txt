@@ -7,6 +7,7 @@ Lista obbiettivi:
 	-WBS
 	-RACI
 	-PERT o CPM
+	-GANTT
 4)Analisi rischi
 5)Analisi costi
 6)Budget
