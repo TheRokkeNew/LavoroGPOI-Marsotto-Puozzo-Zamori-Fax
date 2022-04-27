@@ -4,6 +4,7 @@ Lista obbiettivi:
 2)Fare Database (ER,logico ecc..)
 3)Organizzazione:
 	-Project Charter
+	-OBS
 	-WBS
 	-RACI
 	-PERT o CPM
