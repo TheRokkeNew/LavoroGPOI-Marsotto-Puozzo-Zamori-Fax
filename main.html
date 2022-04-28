@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href=https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css>
+    <link rel="stylesheet" type="text/css" href=https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css>
+</head>
+<body>
+    <section class="header" id="header">
+    <div class="nav-bar">  
+      <div class="logo">
+        <a href="#">HILO</a>
+      </div>
+      <div class="menu">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Rent</a></li>
+            <li><a href="#">Info</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>  
+      </div>
+      <div class="login">
+        <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li> 
+        </ul>    
+      </div>
+    </div> 
+    <div class="page1">
+        <div class="page2">
+            <div class="page3">
+                <div class="page4">
+                    <h2><span>Noleggio</span><br>Auto</h2>
+                    <p>Noleggia la tua auto per un matrimonio perfetto, per lunghi viaggi o semplicemente per un giro in centro a partire da soli 10 euro, approfitta dell'offerta.</p>
+                </div>
+                <button class="discover">
+                    <a href="#">Noleggia</a>
+                </button>
+                <div class="informazioni">
+                <div class="production">
+                    <p>Production</p>
+                    <h2>27/04/2022</h2>
+                </div>
+                <div class="production">
+                    <p>Designer web-site</p>
+                    <h2>fax</h2>
+                </div>
+                </div>
+            </div>
+            <div class="right-sec">
+                <div class="my-car">
+                    <div><img src="img1.png"></div>
+                    <div><img src="img2.png"></div>
+                    <div><img src="img3.png"></div>
+                    <div><img src="img4.png"></div>
+                    <div><img src="img5.png"></div>
+                    <div><img src="img6.png"></div>
+                    <div><img src="img7.png"></div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    </section>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+<script type="text/javascript">
+      $(document).ready(function(){  
+  });
+  $(".my-car").slick({
+    autoplay: true,
+      speed:1000,
+    dots: true,
+    customPaging : function(slider, i) {
+    var thumb = $(slider.$slides[i]).data();
+    return '<a>'+(i+1)+'</a>';
+  },   
+});
+</script>
+
+
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@600&display=swap');
+*{ /*tutti gli elementi*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Radio Canada', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style: none; 
+}
+li{
+    display: inline-block;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://wallpaperaccess.com/full/3072286.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.header .nav-bar{
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+.header .nav-bar .logo{
+    margin-left: 50px;
+}
+.header .nav-bar .logo a{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+.header .nav-bar .menu ul li{
+    margin-right: 30px;
+}
+.header .nav-bar .menu ul li a{
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+.header .nav-bar .menu ul li a.active{
+    color: #f00;
+}
+.header .nav-bar .menu ul li a:hover{
+    color: #f00;
+}
+.header .nav-bar .login ul li a{
+    color: #f00;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 5px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.header .nav-bar .login ul li a:hover{
+    opacity: 1;
+}
+.page1{
+    width: 100%;    
+}
+.page1 .page2{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    margin: auto;
+}
+.page1 .page2 .page3{
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.page1 .page2 .page3 h2{
+    font-size: 85px;
+    color: #f00;
+    text-transform: capitalize;
+}
+.page1 .page2 .page3 h2 span{
+    color: #f00;
+}
+.page1 .page2 .page3 p{
+    margin: 20px 0;
+    line-height: 28px;
+    color: #fff;
+    padding-right: 150px;
+}
+.page1 .page2 .page3 .discover{
+    display: flex;
+    align-items: center;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 50px;
+    padding: 0 25px;
+    border: 3px solid #f00;
+    background-color: #f00;
+    box-shadow: 5px 7px 20px #000;
+}
+.page1 .page2 .page3 .discover a{
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-right: 15px;
+    text-transform: capitalize;
+}
+.page1 .informazioni{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+.page1 .informazioni .production{
+    margin-right: 50px;
+    line-height: 3px;
+}
+.page1 .informazioni .production h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.page1 .informazioni .production p{
+    padding-right: 0;
+    letter-spacing: 1px;
+}
+.page1 .right-sec{
+    width: 70%;
+    padding-top: 100px; 
+}
+.page1 .right-sec img{
+    width: 950px;
+    height: 550px;
+    margin: auto;
+    float: right;
+}
+
+/*numerazione delle png*/
+.slick-dots{
+    padding-left: 450px !important;
+    margin-bottom: -50px !important;
+}
+.slick-dots li{
+    margin-right: 15px !important;
+}
+/*pallino rosso sotto allanumerazione delle png*/
+.slick-dots li.slick-active:after{
+    position: absolute;
+    content: '.';
+    bottom: -15px;
+    left: 6px;
+    opacity: 1;
+    color: red;
+    font-size: 40px;
+
+}
+</style>
+</body>
+</html>
